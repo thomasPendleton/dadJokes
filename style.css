@@ -13,4 +13,38 @@ body {
   justify-content: center;
   height: 100vh;
   overflow: hidden;
+  background-color: blueviolet;
+}
+.container{
+  background-color: aliceblue;
+  border-radius: 5px;
+  box-shadow: 1 1 1 rgba(0, 0, 0, .3);
+  /* height: 150px; */
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 30px;
+  
+}
+.container p{
+  font-weight: bold;
+}
+
+.get-joke {
+  padding: 10px 25px;
+  background-color: royalblue;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  margin: 15px 15px 5px 15px;
+}
+.get-joke:active{
+  transform: scale(.98);
+}
+small {
+  color: gray;
+  font-size: 1.05rem;
 }
